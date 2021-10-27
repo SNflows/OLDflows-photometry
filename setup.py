@@ -3,7 +3,7 @@ from setuptools import setup, find_packages
 
 COMMIT = "59d7914a3457a12be76ae92d13c31861df90fa99"
 
-url = f"https://github.com/rhandberg/flows/tarball/{COMMIT}"
+url = f"https://github.com/SNflows/flows/tarball/{COMMIT}"
 filename, _ = urllib.request.urlretrieve(url)
 
 tar = tarfile.open(filename)
